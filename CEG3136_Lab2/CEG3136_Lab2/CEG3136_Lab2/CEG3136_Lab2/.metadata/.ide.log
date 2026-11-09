@@ -1,0 +1,16 @@
+2026-10-05 08:35:43,431 [INFO] Activator:177 - 
+
+
+2026-10-05 08:35:43,437 [INFO] Activator:178 - !SESSION log4j initialized
+2026-10-05 08:35:46,765 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-10-05 08:35:49,554 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:35:49,635 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:35:49,717 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:36:10,254 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:36:10,334 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:36:10,418 [ERROR] ConfigurationRetriever:142 - IOException on connection: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+2026-10-05 08:36:29,219 [INFO] Activator:177 - 
+
+
+2026-10-05 08:36:29,223 [INFO] Activator:178 - !SESSION log4j initialized
+2026-10-05 08:36:31,994 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 

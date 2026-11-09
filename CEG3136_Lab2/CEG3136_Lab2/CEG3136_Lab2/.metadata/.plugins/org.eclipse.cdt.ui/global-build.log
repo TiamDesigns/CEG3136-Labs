@@ -1,0 +1,22 @@
+09:58:30 **** Incremental Build of configuration Debug for project CEG3136_Lab2 ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m33 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32l552zetxq.d" -MT"Startup/startup_stm32l552zetxq.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32l552zetxq.o" "../Startup/startup_stm32l552zetxq.s"
+arm-none-eabi-gcc "../Src/alarm.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/alarm.d" -MT"Src/alarm.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Src/alarm.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Drivers/Src/console.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/console.d" -MT"Drivers/Src/console.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/console.o"
+arm-none-eabi-gcc "../Drivers/Src/gpio.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/gpio.d" -MT"Drivers/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/gpio.o"
+arm-none-eabi-gcc "../Drivers/Src/i2c.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/i2c.d" -MT"Drivers/Src/i2c.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/i2c.o"
+arm-none-eabi-gcc "../Drivers/Src/syscalls.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/syscalls.d" -MT"Drivers/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/syscalls.o"
+arm-none-eabi-gcc "../Drivers/Src/sysmem.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/sysmem.d" -MT"Drivers/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/sysmem.o"
+arm-none-eabi-gcc "../Drivers/Src/systick.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../Drivers/CMSIS/Include -I../Drivers/Inc -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Src/systick.d" -MT"Drivers/Src/systick.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/systick.o"
+arm-none-eabi-gcc -o "CEG3136_Lab2.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\tmorr015\STM32CubeIDE\workspace_2.2.0\CEG3136_Lab2\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="CEG3136_Lab2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CEG3136_Lab2.elf
+ 
+arm-none-eabi-size  CEG3136_Lab2.elf 
+arm-none-eabi-objdump -h -S CEG3136_Lab2.elf  > "CEG3136_Lab2.list"
+   text	   data	    bss	    dec	    hex	filename
+   7184	     96	   2064	   9344	   2480	CEG3136_Lab2.elf
+Finished building: default.size.stdout
+ 
+Finished building: CEG3136_Lab2.list
+ 

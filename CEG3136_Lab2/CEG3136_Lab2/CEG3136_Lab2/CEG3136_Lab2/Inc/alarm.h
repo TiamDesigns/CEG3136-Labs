@@ -1,0 +1,14 @@
+/*
+ * alarm.h
+ *
+ *  Created on: Oct 5, 2026
+ *      Author: tmorr015
+ */
+
+#ifndef ALARM_H_
+#define ALARM_H_
+
+void Init_Alarm();
+void Task_Alarm();
+
+#endif /* ALARM_H_ */

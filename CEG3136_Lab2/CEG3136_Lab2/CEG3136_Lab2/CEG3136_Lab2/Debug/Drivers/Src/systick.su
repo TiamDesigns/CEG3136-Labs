@@ -1,0 +1,8 @@
+../Drivers/CMSIS/Include/core_cm33.h:2845:26:ITM_SendChar	0	static,ignoring_inline_asm
+../Drivers/Src/systick.c:19:6:ConfigureSysClk	8	static
+../Drivers/Src/systick.c:48:6:StartSysTick	8	static
+../Drivers/Src/systick.c:64:6:SysTick_Handler	0	static
+../Drivers/Src/systick.c:70:6:WaitForSysTick	0	static,ignoring_inline_asm
+../Drivers/Src/systick.c:79:8:TimeNow	0	static
+../Drivers/Src/systick.c:84:8:TimePassedSince	8	static
+../Drivers/Src/systick.c:93:6:DelayFor	16	static,ignoring_inline_asm

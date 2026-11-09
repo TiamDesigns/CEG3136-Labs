@@ -1,0 +1,7 @@
+../Src/display.c:178:13:CallbackTouchEnRelease	8	static
+../Src/display.c:174:13:CallbackTouchEnPress	8	static
+../Src/display.c:66:6:DisplayEnable	16	static
+../Src/display.c:88:6:DisplayPrint	24	static
+../Src/display.c:125:6:DisplayColor	0	static
+../Src/display.c:136:6:UpdateDisplay	8	static
+../Src/display.c:170:8:GetPage	0	static

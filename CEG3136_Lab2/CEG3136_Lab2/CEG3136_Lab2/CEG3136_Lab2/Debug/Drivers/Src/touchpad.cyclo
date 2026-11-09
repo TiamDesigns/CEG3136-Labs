@@ -1,0 +1,5 @@
+../Drivers/Src/touchpad.c:29:6:TouchEnable	2
+../Drivers/Src/touchpad.c:47:9:TouchInput	2
+../Drivers/Src/touchpad.c:57:6:TouchEntry	5
+../Drivers/Src/touchpad.c:75:6:ScanTouchpad	7
+../Drivers/Src/touchpad.c:102:6:ClearTouchpad	1
